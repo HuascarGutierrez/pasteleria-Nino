@@ -1,5 +1,4 @@
-import React from 'react'
-
+import './stylesMenu/Back.css'
 function Back() {
   return (
     <>
