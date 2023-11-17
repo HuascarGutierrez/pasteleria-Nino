@@ -3,7 +3,7 @@ import "../styles/Skip.css"
 function Skip() {
   return (
     <div className='Skip'>
-        <img src='./skipgroup.svg'></img>
+        <img src='./skipgroup.svg' className='imagen'></img>
     </div>
   )
 }

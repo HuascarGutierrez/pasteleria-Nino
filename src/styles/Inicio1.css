@@ -1,3 +1,6 @@
-.Inicio1{
-    background-color: black;
+body{
+    background-image: url(../../public/background.svg)    
+}
+.Inicio1 img{
+    opacity: 0.1;
 }
