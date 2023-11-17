@@ -1,11 +1,21 @@
+.noUser{
+  width: 430px;
+  height: 932px;
+  display: block;
+  margin: 10px;
+}
+
+.option{
+  margin: 200px;
+  margin-top: 400px;
+}
+
 .botonI {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
     transform: translate(-50%, -50%);
     background-color: #FF4700;
-    width: 350px;
-    height: 48px;
+    width: 370px;
+    height: 67px;
     border-radius: 12px;
     color: white;
     font-size: 24px;

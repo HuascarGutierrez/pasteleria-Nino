@@ -4,7 +4,7 @@
     text-align: center;
     font-size: 23px;
     position: absolute;
-    top: 60%; /* Ajusta el valor según sea necesario para posicionar más abajo */
-    left: 50%;
     transform: translate(-50%, -50%);
+    width: 216px;
+    margin-top: 20px;
 }
