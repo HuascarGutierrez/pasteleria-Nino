@@ -7,7 +7,7 @@ function Title() {
   return (
     <>
         <div className='titulo'>
-        <h1>{title[1]}</h1>
+        <h1>{title[0]}</h1>
         </div>
     </>
   )

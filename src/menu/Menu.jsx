@@ -2,7 +2,7 @@ import Buttons from './Buttons'
 import TopButtons from './TopButtons'
 import Title from './Title'
 import Producto from './Producto'
-import {otros} from '../assets/quequesHuminas'
+import {pasteles} from '../assets/pasteles'
 import './stylesMenu/Menu.css'
 
 function Menu() {
@@ -12,9 +12,9 @@ function Menu() {
         <TopButtons />
         <Title />
         {
-            otros.map(otro=>{
+            pasteles.map(pastel=>{
               return(
-                <Producto producto={otro}/> 
+                <Producto producto={pastel}/> 
               )
             }
             )
