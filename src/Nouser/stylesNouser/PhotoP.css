@@ -1,8 +1,9 @@
 .pastel {
-    width: 30px;
-    height: auto;
-    margin-bottom: 10px;
-    display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes y centrar */
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 30px;
+  height: auto;
+  margin-bottom: 80px;
+  display: flex;
+  margin-left: 80%; 
+  margin-top:-65px ; 
+  margin-right: auto;
+}
