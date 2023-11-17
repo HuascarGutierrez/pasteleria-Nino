@@ -1,13 +1,12 @@
 import './App.css'
+import Organismos from './componentes/Organismos'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>
-        </h1>
-      </div>
+      <Organismos>
+      </Organismos>
     </>
   )
 }
