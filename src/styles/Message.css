@@ -1,0 +1,11 @@
+.Welcom{
+    color: black;
+}
+.Frase{
+    color: black;
+}
+.Mensaje{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
