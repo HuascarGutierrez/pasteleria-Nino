@@ -6,7 +6,7 @@ function Buttons() {
     <>
       <div className='botones'>
         <a><img src={less}></img></a>
-        <p></p>
+        <p>00</p>
         <a><img src={more}></img></a>
       </div>
     </>

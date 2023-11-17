@@ -2,3 +2,13 @@ body {
  width: 430px;
  height: 959px;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 430px;
+    height: 950px;
+}
