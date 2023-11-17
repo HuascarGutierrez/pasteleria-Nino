@@ -9,12 +9,12 @@ function Producto(props) {
     <>
         <div className='producto'>
             <div className='foto'>
-                <img src={producto[0].imgUrl}></img>
+                <img src={producto.imgUrl}></img>
             </div>
-            <div>
-                <Info info={producto[0]}/>
-                <div>
-                    <div className='precio'><p>{"Bs "+producto[0].price}</p></div>
+            <div className='informacion'>
+                <Info info={producto}/>
+                <div className='bottom'>
+                    <div className='precio'><p>{"Bs "+producto.price}</p></div>
                     <Buttons/>
                 </div>
             </div>

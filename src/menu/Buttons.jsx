@@ -1,3 +1,4 @@
+import './stylesMenu/Buttons.css'
 
 function Buttons() {
   const less = '/menu/less.svg';
