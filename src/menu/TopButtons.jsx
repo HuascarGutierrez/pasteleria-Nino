@@ -14,6 +14,10 @@ function TopButtons() {
         </svg>
       </a>
     </div>
+    /* titulo 
+    <div className="titulo">
+      <h2>Tortas</h2>
+    </div> */
   )
 }
 

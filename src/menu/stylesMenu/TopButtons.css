@@ -5,3 +5,14 @@
     width: 398px;
     height: 41px;
 }
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.titulo h2{
+    font-weight: 500;
+    font-size: 32px;
+}
