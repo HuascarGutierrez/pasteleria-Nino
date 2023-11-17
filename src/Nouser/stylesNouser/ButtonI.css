@@ -1,0 +1,9 @@
+.botonI{
+    background-color: #FF4700;
+    width: 242px;
+    height: 48px;
+    border-radius: 12px;
+    position: relative;
+    top: -10px;
+    left: -5px;
+}

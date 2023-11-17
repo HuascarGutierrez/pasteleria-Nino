@@ -1,12 +1,14 @@
 import './App.css'
+import { ButtonI } from './Nouser/ButtonI'
+
 
 function App() {
 
   return (
     <>
       <div>
-        <h1>
-        </h1>
+        <ButtonI></ButtonI>
+        
       </div>
     </>
   )
