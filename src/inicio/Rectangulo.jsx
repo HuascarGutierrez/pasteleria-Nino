@@ -3,7 +3,7 @@ import "../styles/Rectangulo.css"
 function Rectangulo() {
   return (
     <div className='Rectangulo'>
-        <img src='./processbar.svg'></img>
+        <img src='./processbar.svg' className='imagen'></img>
     </div>
   )
 }
