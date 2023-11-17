@@ -5,8 +5,8 @@ import Frase from './Frase'
 function Messege() {
   return (
     <div className='Mensaje'>
-        <Welcom></Welcom>
-        <Frase></Frase>
+        <Welcom />
+        <Frase />
     </div>
   )
 }

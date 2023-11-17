@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <div>
-      <Inicio1></Inicio1>
+      <Inicio1 />
     </div>
       
     </>

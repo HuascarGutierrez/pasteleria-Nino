@@ -4,7 +4,7 @@ function Next() {
   return (
     <div>
         <button>
-        <img src='./gogroup.svg' className='imagen'></img>
+        <img src='./gogroup2.svg' className='imagen'></img>
         </button>
     </div>
   )

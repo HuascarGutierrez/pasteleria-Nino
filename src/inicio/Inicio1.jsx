@@ -7,10 +7,10 @@ import "../styles/Inicio1.css"
 function Inicio1() {
   return (
     <div className='Inicio1'>
-        <Skip></Skip>
-        <Messege></Messege>
-        <Next></Next>
-        <Rectangulo></Rectangulo>
+        <Skip />
+        <Messege />
+        <Next />
+        <Rectangulo />
     </div>
   )
 }
