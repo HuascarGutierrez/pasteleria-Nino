@@ -3,8 +3,6 @@
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 23px;
-    position: absolute;
-    transform: translate(-50%, -50%);
     width: 216px;
     margin-top: 20px;
 }

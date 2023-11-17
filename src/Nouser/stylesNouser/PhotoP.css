@@ -1,4 +1,9 @@
 .pastel {
-  margin: 10px;
-  margin-right: 50px;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+}
+.pastel img{
+  width: 40px;
+  height: 40px;
 }
