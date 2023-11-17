@@ -12,11 +12,12 @@ function App() {
   return (
     <>
       <div>
-        <ButtonI></ButtonI>
-        <PhotoP></PhotoP>
-        <TituloPast></TituloPast>
-        <AcercaD></AcercaD>
-        <GoMenu></GoMenu>
+      <TituloPast></TituloPast>
+      <GoMenu></GoMenu>
+      <PhotoP></PhotoP>
+      <ButtonI></ButtonI>
+      <AcercaD></AcercaD>
+       
 
        
       </div>
