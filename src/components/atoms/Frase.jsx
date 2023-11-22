@@ -1,9 +1,9 @@
 import React from 'react'
 import "./styles/Frase.css"
-function Frase() {
+function Frase(props) {
   return (
     <div className='Frase'>
-        <h3>Hecho a mano desde cero con cariño</h3>
+        <h3>{props.frase}</h3>
     </div>
   )
 }

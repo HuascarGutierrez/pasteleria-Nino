@@ -1,10 +1,10 @@
 import React from 'react'
 import "./styles/Welcom.css"
-function Welcom() {
+function Welcom(props) {
   return (
     <div className='Welcom'>
-        <h1>Bienvenido a </h1>
-        <h1>Pasteleria Nino</h1>
+        <h1>{props.titulo}</h1>
+  
     </div>
   )
 }

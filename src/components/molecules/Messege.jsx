@@ -2,11 +2,11 @@ import React from 'react'
 import Welcom from '../atoms/Welcom'
 import Frase from '../atoms/Frase'
 import "./styles/Message.css"
-function Messege() {
+function Messege(props) {
   return (
     <div className='Mensaje'>
-        <Welcom />
-        <Frase />
+        <Welcom titulo={props.titulo}/>
+        <Frase frase={props.frase}/>
     </div>
   )
 }

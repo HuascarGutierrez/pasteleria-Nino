@@ -3,16 +3,16 @@ import Skip from '../components/atoms/Skip'
 import Messege from '../components/molecules/Messege'
 import Next from '../components/atoms/Next'
 import Rectangulo from '../components/atoms/Rectangulo'
-import "./styles/Inicio1.css"
-function Inicio1() {
+import "./styles/Inicio2.css"
+function Inicio2() {
   return (
     <div className='Inicio1'>
         <Skip />
-        <Messege titulo="Pasteles rapidos y deliciosos" frase="Hecho a mano desde cero con cariño :D" />
+        <Messege titulo="Bienvenido a Pasteleria Nino" frase="Hecho a mano por la propietaria con una pizca de extra love :’v" />
         <Next />
         <Rectangulo />
     </div>
   )
 }
 
-export default Inicio1
+export default Inicio2
