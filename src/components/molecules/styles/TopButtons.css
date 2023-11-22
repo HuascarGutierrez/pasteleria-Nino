@@ -1,0 +1,11 @@
+.cardButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100vw;
+    height: 41px;
+}
+.boton {
+    width: 43px;
+    height: 43px;
+}
