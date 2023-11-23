@@ -1,0 +1,13 @@
+button
+{
+    position: absolute;
+    top: 810px;
+    left: 310px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.imagen {
+    opacity: 1 !important;
+}
