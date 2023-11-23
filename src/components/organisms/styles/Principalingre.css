@@ -1,0 +1,16 @@
+
+.principal h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+
+.Ingredientes{
+    width: 400px;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+

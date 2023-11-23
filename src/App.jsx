@@ -1,4 +1,5 @@
 import './App.css'
+import CakeTemplate from './screens/CakeTemplate'
 import Inicio1 from './screens/Inicio1'
 import Inicio2 from './screens/Inicio2'
 import MenuHumintas from './screens/MenuHumintas'
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <MenuHumintas />
+      <CakeTemplate />
       
     </>
   )
