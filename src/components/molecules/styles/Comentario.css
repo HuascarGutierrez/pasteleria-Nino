@@ -1,0 +1,13 @@
+.comentariosingle{
+    line-height: 25px;
+}
+
+.comentariosingle h4{
+    font-weight: 600;
+}
+
+.comentariosingle p{
+    text-decoration: wavy;
+    font-style: italic;
+    
+}

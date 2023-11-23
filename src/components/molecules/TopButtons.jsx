@@ -9,7 +9,7 @@ function TopButtons() {
       <a href="">
        <img className="boton" src={back}></img>
       </a>
-      <a>
+      <a href="">
        <img className="boton" src={front}></img>
       </a>
     </div></>
