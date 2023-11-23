@@ -1,0 +1,11 @@
+.balloons-image {
+    text-align: center; /* Esto asegura que la imagen esté centrada horizontalmente */
+    margin: 20px 0; /* Aumenta el margen superior e inferior */
+  }
+  
+  .balloons-image img {
+    width: auto; /* Mantiene la proporción original de la imagen */
+    height: 100px; /* Ajusta la altura para tu diseño */
+    display: inline-block; /* Para habilitar el centrado con text-align */
+  }
+  

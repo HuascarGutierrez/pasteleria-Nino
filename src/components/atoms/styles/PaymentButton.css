@@ -1,0 +1,12 @@
+.payment-button {
+    width: 100%;
+    background-color: #FF4700;
+    color: #FFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin-top: 90px;
+  }
+  

@@ -1,0 +1,17 @@
+.checkout-page {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 2rem; 
+  min-height: 100vh; 
+  background-color: #f0f0f2; 
+}
+
+
+@media (max-width: 768px) {
+  .checkout-page {
+    padding-top: 1rem;
+  }
+}
+
+  

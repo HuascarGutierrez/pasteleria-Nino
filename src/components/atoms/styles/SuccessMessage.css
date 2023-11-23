@@ -1,0 +1,9 @@
+.success-message {
+    color: #4CAF50; /* Color verde para indicar éxito */
+    font-size: 1rem; /* Tamaño de fuente para el mensaje */
+    text-align: center; /* Centrar el texto horizontalmente */
+    padding: 10px; /* Espaciado interno para no tocar los bordes */
+    margin: 10px 0; /* Espaciado externo arriba y abajo */
+    /* Ajusta estos valores según sea necesario */
+  }
+  

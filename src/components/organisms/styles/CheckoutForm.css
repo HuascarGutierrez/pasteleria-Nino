@@ -1,0 +1,19 @@
+.checkout-form {
+   
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+
+  }
+.subtitulo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 32px ;
+  margin-bottom: 30px;
+
+  /*position: relative;*/
+}
