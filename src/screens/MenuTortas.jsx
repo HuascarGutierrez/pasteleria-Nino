@@ -3,23 +3,25 @@ import Title from '../components/atoms/Title'
 import Productos from '../components/organisms/Productos'
 import './styles/Menu.css'
 
+import {useState, useEffect} from 'react'
+
+
 function MenuTortas() {
 
     const [otros, setOtros] = useState([])
     useEffect(() => {
-        const obtenerDatos = async () => {
+      const obtenerDatos = async () => {
         const res = await fetch('https://6557a042bd4bcef8b612f95b.mockapi.io/pasteles/pasteles');
         const data = await res.json();
         setOtros([...data]);
-        }
-        obtenerDatos();
+      }
+      obtenerDatos();
     }, [])
-
   return (
     <>
       <div className='menu'>
         <TopButtons />
-        <Title title='Queques y Humintas'/>
+        <Title title='Tortas'/>
         <Productos productos={otros}/>
       </div>
     </>
