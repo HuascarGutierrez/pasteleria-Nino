@@ -1,4 +1,5 @@
 import './App.css'
+import {Routes, Route, Outlet, Link} from "react-router-dom"
 
 import Login from './screens/Login'
 import Inicio1 from './screens/Inicio1'
@@ -11,7 +12,16 @@ function App() {
 
   return (
     <>
-      <Register />
+      <Routes>
+        <Route path="/" element={<Inicio1 />}></Route>
+        <Route path="/welcome" element={<Inicio2 />}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/signup" element={<Register/>}></Route>
+        <Route path="/tortas" element={<MenuTortas/>}></Route>
+        <Route path="/humintas" element={<MenuHumintas/>}></Route>
+
+        <Route path="/menu" element={<MenuHumintas/>}></Route>
+      </Routes>
     </>
   )
 }

@@ -9,7 +9,7 @@ function Inicio1() {
     <div className='Inicio1'>
         <Skip />
         <Messege titulo="Pasteles rapidos y deliciosos" frase="Hecho a mano desde cero con cariño :D" />
-        <Next />
+        <Next route="./welcome"/>
         <Rectangulo />
     </div>
   )
