@@ -1,0 +1,9 @@
+.Noaccount{
+    text-align: center;
+    padding: 5%;
+}
+.Noaccount p{
+    color: rgba(254, 114, 76, 1);
+    display: inline-block;
+    margin: 10px;
+}
