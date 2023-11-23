@@ -1,0 +1,9 @@
+.order-tracking-template {
+    max-width: 400px; /* Ajusta esto según el ancho de tu diseño */
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* El CSS para los botones ya está definido en Button.css */

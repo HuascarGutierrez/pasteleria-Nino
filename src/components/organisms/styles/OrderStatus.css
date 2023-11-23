@@ -1,0 +1,14 @@
+.order-status {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .order-status h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .order-status p {
+    color: #666;
+  }
