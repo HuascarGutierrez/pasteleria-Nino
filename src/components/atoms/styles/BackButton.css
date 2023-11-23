@@ -1,0 +1,15 @@
+.back-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px; /* O el espaciado que necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .back-button-icon {
+    width: 24px; /* O el tamaño que corresponda */
+    height: auto;
+  }
+  

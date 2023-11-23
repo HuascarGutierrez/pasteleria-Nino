@@ -1,0 +1,16 @@
+.order-summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #eee; /* Opcional: añadir si deseas una línea divisora */
+  }
+  
+  .title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .value {
+    color: #666;
+  }
+  
