@@ -1,0 +1,32 @@
+.Informacion {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.especifico {
+    display: flex;
+    width: 342px;
+    height: 350px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+ul {
+    margin: 30px;
+    width: 152px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 10px;
+    width: 120px;
+}
+.imag {
+    position: relative;
+    width: 243px;
+    height: 306px;
+}

@@ -1,0 +1,29 @@
+.cantidadM{
+    width: 49px;
+    height: 21px;
+    border-radius: 20px;
+    border: 2px solid #FC7846;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.minis{
+    display: flex;
+    flex-direction: column;
+}
+
+.minis a{
+    margin: -5px;
+}
+
+.minis a img{
+    width: 8px;
+    height: 8px;
+}
+
+.cantidadM p{
+    font-size: 14px;
+    font-weight: 300;
+}
