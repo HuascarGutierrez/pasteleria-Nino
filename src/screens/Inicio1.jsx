@@ -10,7 +10,7 @@ function Inicio1() {
         <Skip />
         <Messege titulo="Pasteles rapidos y deliciosos" frase="Hecho a mano desde cero con cariño :D" />
         <Next route="./welcome"/>
-        <Rectangulo />
+        <Rectangulo process="./icons/processbar.svg"/>
     </div>
   )
 }

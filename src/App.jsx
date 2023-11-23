@@ -17,10 +17,12 @@ function App() {
         <Route path="/welcome" element={<Inicio2 />}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/signup" element={<Register/>}></Route>
+
         <Route path="/tortas" element={<MenuTortas/>}></Route>
         <Route path="/humintas" element={<MenuHumintas/>}></Route>
 
         <Route path="/menu" element={<MenuHumintas/>}></Route>
+        
       </Routes>
     </>
   )
