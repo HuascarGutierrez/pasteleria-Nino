@@ -1,0 +1,17 @@
+.Botongoogle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(235, 238, 243, 1);
+    color: black;
+    border: none;
+    border-radius: 15px; /* Ajusta según sea necesario */
+    width: 70%;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .iniciar{
+    display: flex;
+    justify-content: center;
+  }
