@@ -1,0 +1,25 @@
+.cart-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Asegúrate de que los elementos estén alineados verticalmente en el centro */
+    width: 100%;
+  }
+  
+  .cart-item-title {
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+    font-size: 1rem;
+    flex: 1; 
+  }
+  
+  .cart-item-price {
+    font-size: 1rem;
+    color: #E53935; 
+    font-weight: bold;
+    margin-left: 0.5rem; 
+    padding: 0.25rem 0.5rem; 
+    background-color: #ffebee; 
+    border-radius: 5px; 
+  }
+  

@@ -1,8 +1,8 @@
 import React from 'react';
 import BackButton from '../atoms/BackButton';
-import AddressForm from '../moleculas/AddressForm';
-import OrderSummary from '../moleculas/OrderSummary';
-import PaymentButton from '../atomos/PaymentButton';
+import AddressForm from '../molecules/AddressForm';
+import OrderSummary from '../molecules/OrderSummary';
+import PaymentButton from '../atoms/PaymentButton';
 import "./styles/CheckoutForm.css";
 
 function CheckoutForm() {
