@@ -4,12 +4,12 @@ import Inicio2 from './screens/Inicio2'
 import MenuHumintas from './screens/MenuHumintas'
 import MenuTortas from './screens/MenuTortas'
 import Loginimagen from './components/molecules/Loginimagen'
+import Ubicacione from './screens/Ubicacione'
 function App() {
 
   return (
     <>
-      <Loginimagen></Loginimagen>
-      
+      <Ubicacione></Ubicacione>
     </>
   )
 }

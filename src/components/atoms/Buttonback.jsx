@@ -3,9 +3,9 @@ import "./styles/Buttonback.css"
 function Buttonback() {
   return (
     <div>
-        <button>
-            <img src='./icons/Back.svg' className='imagen'></img>
-        </button>
+        <a className='Buttonback'>
+            <img src='./icons/Backdenis.svg' className='imagen'></img>
+        </a>
     </div>
   )
 }

@@ -1,0 +1,18 @@
+.Horarios{
+    position: absolute;
+    top: 450px;
+    left: 20px;
+}
+.Horarios b{
+    font-size: 25px;
+}
+.Hora1{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.Hora2{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
