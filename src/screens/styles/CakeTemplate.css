@@ -1,3 +1,29 @@
 .cakeTemplate{
     width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Banner{
+    width: 430px;
+    height: 360px;
+    background-image: url("/public/images/Navidad.png");
+    display: flex;
+    color: white;
+    font-style: italic;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+}
+.Banner p{
+    font-size: 35px;
+}
+
+.Banner h5{
+    text-align: left;
+    font-size: 55px;
 }

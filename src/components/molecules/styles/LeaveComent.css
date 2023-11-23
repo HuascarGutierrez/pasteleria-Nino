@@ -1,0 +1,22 @@
+.Leave{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.star0{
+    margin: 20px;
+}
+
+.comentl{
+    width: 360px;
+    height: 48px;
+    border-radius: 7px;
+    border: 2px solid #CECECE;
+}
+
+hr{
+    margin: 14px 0 14px 0;
+}
+

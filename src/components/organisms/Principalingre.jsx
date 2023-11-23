@@ -6,8 +6,8 @@ import "./styles/Principalingre.css"
 function Principalingre() {
   return (
     <>
-    <section className='principal'>
-        <h2>Ingredientes Principales</h2>
+    <section>
+        <h3>Ingredientes Principales</h3>
         <div className='Ingredientes'>
         {
             items.map(item=>{
