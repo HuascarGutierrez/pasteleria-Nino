@@ -12,10 +12,14 @@ function OrderSummary() {
         description="ummh sabroso!" 
         imageUrl="./public/images/image 29.png" 
       />
-      
+      <div className='menu-pedido'>
+        
+         
       <OrderSummaryItem title="Sub Total" value="Bs. 18" />
       <OrderSummaryItem title="Delivery" value="Bs. 10" />
       <OrderSummaryItem title="Total" value="Bs. 28" />
+      </div>
+     
     </div>
   
   );

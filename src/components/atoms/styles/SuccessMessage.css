@@ -3,7 +3,7 @@
     font-size: 2rem; /* Tamaño de fuente para el mensaje */
     text-align: center; /* Centrar el texto horizontalmente */
     padding: 15px; /* Espaciado interno para no tocar los bordes */
-    margin: 10px 0; /* Espaciado externo arriba y abajo */
+    margin-top: 1px ; /* Espaciado externo arriba y abajo */
     /* Ajusta estos valores según sea necesario */
   }
   
