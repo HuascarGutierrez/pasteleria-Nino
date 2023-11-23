@@ -7,7 +7,7 @@ function Principalingre() {
   return (
     <>
     <section>
-        <h3>Ingredientes Principales</h3>
+        <h3 className='titleh3'>Ingredientes Principales</h3>
         <div className='Ingredientes'>
         {
             items.map(item=>{

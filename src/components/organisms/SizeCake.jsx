@@ -10,7 +10,7 @@ function SizeCake() {
   return (
     <>
     <section>
-        <h3>Tortas Enteras</h3>
+        <h3 className='titleh3'>Tortas Enteras</h3>
         <div className='lista'>
             {
                 tamanos.map(tamano=>{

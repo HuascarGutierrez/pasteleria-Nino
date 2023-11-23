@@ -6,6 +6,7 @@ import TopButtons from '../components/molecules/TopButtons'
 import Portions from '../components/organisms/Portions'
 import "./styles/CakeTemplate.css"
 import CajaComentarios from '../components/organisms/CajaComentarios'
+import ProductInformacion from '../components/organisms/ProductInformacion'
 
 function CakeTemplate() {
   return (
@@ -13,6 +14,7 @@ function CakeTemplate() {
     <div className='cakeTemplate'>
         <TopButtons />
         <br />
+        <ProductInformacion />
         <Principalingre />
         <Portions />
         <SizeCake />

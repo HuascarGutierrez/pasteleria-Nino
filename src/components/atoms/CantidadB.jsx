@@ -9,8 +9,8 @@ function CantidadB() {
     <div className='cantidadB'>
         <p>2</p>
         <div className='masomenos'>
-            <a><img src={more}></img></a>
-            <a><img src={less}></img></a>
+            <a href=''><img src={more}></img></a>
+            <a href=''><img src={less}></img></a>
         </div>
     </div>
     </>

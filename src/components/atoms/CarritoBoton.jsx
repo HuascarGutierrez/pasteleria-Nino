@@ -6,7 +6,7 @@ function CarritoBoton() {
   return (
     <>
     <div>
-        <a className='carritoB'><img src={carrito}></img></a>
+        <a className='carritoB' href=''><img src={carrito}></img></a>
     </div>
     </>
   )

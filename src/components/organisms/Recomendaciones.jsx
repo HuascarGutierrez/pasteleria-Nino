@@ -9,7 +9,7 @@ function Recomendaciones() {
   return (
     <>
     <section>
-      <h3>Recomendaciones para tu pedido</h3>
+      <h3 className='titleh3'>Recomendaciones para tu pedido</h3>
       <div className='lista'>
           {
               recomedations.map(recomendation=>{

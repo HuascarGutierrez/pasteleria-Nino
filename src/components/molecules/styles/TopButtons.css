@@ -1,10 +1,8 @@
 .cardButtons{
     display: flex;
     justify-content: space-between;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    margin-top: 2.5vh;
-    width: 100%;
+    padding-top: 15px;
+    width: 398px;
     height: 41px;
 }
 .boton {
