@@ -1,6 +1,9 @@
+import {Routes, Route, Outlet, Link} from "react-router-dom"
+
 import React from 'react'
 import Producto from '../molecules/Producto'
 import "./styles/Productos.css"
+import CakeTemplate from "../../screens/CakeTemplate"
 
 function Productos(props) {
     const productos = props.productos
@@ -16,6 +19,16 @@ function Productos(props) {
                 )
             }
         </div>
+        <Routes>
+            {
+                productos.map(producto=>{
+                return(
+                    <Route path={"./"+producto.id} element={<CakeTemplate/>}></Route>
+                )
+                }
+                )
+            }
+        </Routes>
     </>
   )
 }

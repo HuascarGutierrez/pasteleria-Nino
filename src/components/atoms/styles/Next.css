@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 .iconoNext
-=======
-.botonNext
->>>>>>> 21976e29db7b0d18640d10c631b85b4188442a0a
 {
     position: absolute;
     top: 810px;
-    left: 310px;
+    left: 330px;
     background-color: transparent;
     border: 0;
     cursor: pointer;

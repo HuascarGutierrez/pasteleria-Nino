@@ -9,7 +9,6 @@ import Inicio2 from './screens/Inicio2'
 import MenuHumintas from './screens/MenuHumintas'
 import MenuTortas from './screens/MenuTortas'
 import Register from './screens/Register'
-import {Routes, Route, Outlet, Link} from "react-router-dom"
 
 function App() {
 
@@ -21,7 +20,7 @@ function App() {
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/signup" element={<Register/>}></Route>
 
-        <Route path="/tortas" element={<MenuTortas/>}></Route>
+        <Route path='/tortas' element={<MenuTortas/>}></Route>
         <Route path="/humintas" element={<MenuHumintas/>}></Route>
 
         <Route path="/menu" element={<MenuHumintas/>}></Route>

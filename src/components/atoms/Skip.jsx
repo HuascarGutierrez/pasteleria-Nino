@@ -6,9 +6,6 @@ function Skip() {
         <a href='./menu'>
         <img src='./icons/skipgroup.svg' className='imagen'></img>
         </a>
-      <a href='../'>
-        <img src='./icons/skipgroup.svg' className='imagen'></img>
-      </a>
     </div>
   )
 }

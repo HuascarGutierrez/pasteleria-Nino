@@ -6,7 +6,7 @@ function TopButtons() {
   return (
     <>
     <div className="cardButtons">
-      <a href="">
+      <a href={"../"}>
        <img className="boton" src={back}></img>
       </a>
       <a href="">
