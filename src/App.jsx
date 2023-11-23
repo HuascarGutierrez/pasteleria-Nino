@@ -5,16 +5,14 @@ import MenuHumintas from './screens/MenuHumintas'
 import MenuTortas from './screens/MenuTortas'
 import Loginimagen from './components/molecules/Loginimagen'
 import IniciarSesion from './components/organisms/IniciarSesion'
-import Gsesion from './components/molecules/Gsesion'
-import Noaccount from './components/atoms/Noaccount'
+
 function App() {
 
   return (
     <>
       <Loginimagen></Loginimagen>
       <IniciarSesion />
-        <Noaccount />
-          <Gsesion />
+      
     </>
   )
 }
