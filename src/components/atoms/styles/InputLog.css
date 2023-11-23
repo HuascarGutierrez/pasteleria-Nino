@@ -1,0 +1,17 @@
+.inputL {
+    border-radius: 20px;
+    width: 380px;
+    height: 60px;
+    background-color: #E3E3E3;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.inputL label input{
+    font-size: 24px;
+    color: #505050;
+    border: none;
+    background-color: transparent;
+    width: 110%;
+}
