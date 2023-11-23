@@ -9,6 +9,17 @@ function Productos(props) {
     const productos = props.productos
   return (
     <>
+        <Routes>
+            {
+                productos.map(producto=>{
+                return(
+                    <Route path={"./"+producto.id} element={<CakeTemplate/>}></Route>
+                )
+                }
+                )
+            }
+        </Routes>
+        
         <div className='lista'>
             {
                 productos.map(producto=>{

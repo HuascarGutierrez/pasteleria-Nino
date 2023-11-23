@@ -1,9 +1,18 @@
 .name {
     font-weight: 400;
+    font-size: 22px;
     margin-left: 10px;
+}
+.name a{
+    color: black;
+    text-decoration: none;
 }
 .cantidad{
     font-weight: 200;
     color: black;
     margin-left: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
 }

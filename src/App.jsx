@@ -23,7 +23,7 @@ function App() {
         <Route path='/tortas' element={<MenuTortas/>}></Route>
         <Route path="/humintas" element={<MenuHumintas/>}></Route>
 
-        <Route path="/menu" element={<MenuHumintas/>}></Route>
+        <Route path="/menu" element={<CakeTemplate/>}></Route>
         
       </Routes>
     </>
