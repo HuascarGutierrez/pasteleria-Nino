@@ -1,5 +1,5 @@
 import React from 'react';
-import "../atomos/styles/InputField.css";
+import "./styles/InputField.css";
 
 function InputField({ placeholder }) {
   return (

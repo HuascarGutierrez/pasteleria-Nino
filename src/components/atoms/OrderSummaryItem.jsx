@@ -1,5 +1,5 @@
 import React from 'react';
-import "../atomos/styles/OrderSummaryItem.css";
+import "./styles/OrderSummaryItem.css";
 
 function OrderSummaryItem({ title, value }) {
   return (

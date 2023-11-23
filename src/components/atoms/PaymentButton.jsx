@@ -1,5 +1,5 @@
 import React from 'react';
-import "../atomos/styles/PaymentButton.css";
+import "./styles/PaymentButton.css";
 
 function PaymentButton() {
   return (

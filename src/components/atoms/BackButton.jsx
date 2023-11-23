@@ -1,5 +1,5 @@
 import React from 'react';
-import "../atomos/styles/BackButton.css";
+import "./styles/BackButton.css";
 
 
 function BackButton() {
