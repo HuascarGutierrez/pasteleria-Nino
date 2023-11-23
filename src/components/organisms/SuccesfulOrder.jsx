@@ -9,6 +9,9 @@ function SuccessfulOrder() {
   
   return (
     <div className="successful-order">
+      <div className=''>
+        <BackButton/>
+      </div>
        
       
       <HeaderGo />

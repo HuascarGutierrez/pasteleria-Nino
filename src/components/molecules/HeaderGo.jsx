@@ -6,8 +6,9 @@ import "./styles/HeaderGo.css";
 
 function HeaderGo() {
   return (
+
     <div className="header-go">
-      <BackButton />
+      <BackButton/>
       <BalloonsImage />
       <SuccessfulMessage message="¡Tu pedido fue realizado con éxito!" />
     </div>
