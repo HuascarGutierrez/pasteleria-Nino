@@ -1,9 +1,10 @@
 import React from 'react'
 import Textosesion from '../atoms/Textosesion'
 import Googleboton from '../atoms/Googleboton'
+import "./styles/Gsesion.css"
 function Gsesion() {
   return (
-    <div>
+    <div className='inicioSesion'>
         
         <Textosesion />
         <Googleboton />

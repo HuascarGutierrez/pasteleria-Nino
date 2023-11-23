@@ -4,7 +4,7 @@ function Textosesion() {
   return (
     <div className='Textosesion'>
         <img src='./icons/Linea.svg'></img>
-        <p>Iniciar sesión con</p>
+        <p className='pInicioSesion'>Iniciar sesión con</p>
         <img src='./icons/Linea.svg' ></img>
     </div>
   )

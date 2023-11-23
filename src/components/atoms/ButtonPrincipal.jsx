@@ -4,7 +4,7 @@ import "./styles/ButtonPrincipal.css"
 function ButtonPrincipal(props) {
   return (
     <>
-      <div className={"boton boton"+props.type}>
+      <div className={"botonP boton"+props.type}>
           <a href={props.refe}>{props.text}</a>
       </div>
     </>

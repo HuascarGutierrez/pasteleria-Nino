@@ -3,9 +3,9 @@ import "./styles/Buttonback.css"
 function Buttonback(props) {
   return (
     <div>
-        <button>
-            <img src={props.url} className='imagen'></img>
-        </button>
+        <a>
+            <img src={props.url} className='botonAtras'></img>
+        </a>
     </div>
   )
 }
