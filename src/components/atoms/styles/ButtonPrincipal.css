@@ -1,0 +1,30 @@
+.boton{
+    width: 85%;
+    border-radius: 25px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.botonOrange{
+    background-color: #FE724C;
+}
+
+.botonWhite{
+    background-color: #FFFFFF;
+    border: 2px solid #FE724C;
+}
+
+.botonOrange a{
+    color: #FFFFFF;
+}
+
+.botonWhite a{
+    color: #FE724C;
+}

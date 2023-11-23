@@ -36,8 +36,7 @@ function InputLog(props) {
           <input
             type="text"
             id={props.id}
-            value={props.value}
-            onClick={borrarValorInicial}
+            placeholder={props.value}
             onChange={handleInputChange}
           />
         </label>

@@ -1,10 +1,10 @@
 import React from 'react'
 import "./styles/Buttonback.css"
-function Buttonback() {
+function Buttonback(props) {
   return (
     <div>
         <button>
-            <img src='./icons/Back.svg' className='imagen'></img>
+            <img src={props.url} className='imagen'></img>
         </button>
     </div>
   )

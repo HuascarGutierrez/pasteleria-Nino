@@ -4,7 +4,7 @@ import Imagenlogin from '../atoms/Imagenlogin'
 function Loginimagen() {
   return (
     <div>
-        <Buttonback />
+        <Buttonback url="./icons/BackWhite.svg"/>
         <Imagenlogin />
     </div>
   )

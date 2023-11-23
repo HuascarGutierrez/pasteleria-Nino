@@ -1,0 +1,12 @@
+.forgot {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.forgot a{
+    text-decoration: none;
+    color: #505050;
+}

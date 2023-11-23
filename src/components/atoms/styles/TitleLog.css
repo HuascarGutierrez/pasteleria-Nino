@@ -1,6 +1,8 @@
 .title {
-    width: 100vw;
-    margin: 2% 0 7% 5%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
 }
 .title p{
     font-size: 38px;  

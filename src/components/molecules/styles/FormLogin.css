@@ -1,0 +1,9 @@
+.FormLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.FormLogin form{
+    width: 90%;
+}
