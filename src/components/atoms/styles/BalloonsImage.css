@@ -4,8 +4,10 @@
   }
   
   .balloons-image img {
-    width: auto; /* Mantiene la proporción original de la imagen */
-    height: 100px; /* Ajusta la altura para tu diseño */
-    display: inline-block; /* Para habilitar el centrado con text-align */
+    margin-top: 80%;
+    width: 300.83px; /* Mantiene la proporción original de la imagen */
+    height: 350px; /* Ajusta la altura para tu diseño */
+    display: flex ; /* Para habilitar el centrado con text-align */
+
   }
   
