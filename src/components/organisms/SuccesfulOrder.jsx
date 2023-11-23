@@ -9,11 +9,10 @@ function SuccessfulOrder() {
   
   return (
     <div className="successful-order">
-      <div className=''>
-        <BackButton/>
+      <div className='back-buton'>
+      <BackButton />
       </div>
        
-      
       <HeaderGo />
       <OrderSummary />
       <InfoButton />

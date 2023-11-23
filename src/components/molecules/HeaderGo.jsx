@@ -8,8 +8,14 @@ function HeaderGo() {
   return (
 
     <div className="header-go">
-      <BackButton/>
+      
+
+    
+      <div className='balloons'>
       <BalloonsImage />
+      </div>
+   
+
       <SuccessfulMessage message="¡Tu pedido fue realizado con éxito!" />
     </div>
   );
