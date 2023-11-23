@@ -6,7 +6,7 @@ import Payment from './screens/Payment';
 function App() {
   return (
     <div className="app">
-      <Checkoutpage />
+      <CheckoutPage />
     </div>
   );
 }
