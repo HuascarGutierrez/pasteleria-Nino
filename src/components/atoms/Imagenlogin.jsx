@@ -1,9 +1,9 @@
 import React from 'react'
 import "./styles/Imagelogin.css"
-function Imagenlogin() {
+function Imagenlogin(props) {
   return (
     <div className='Imagenlogin'>
-        <img src='./images/login.svg' className='imagen'></img>
+        <img src={props.imagen} className='imagen'></img>
     </div>
   )
 }

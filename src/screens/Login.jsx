@@ -8,9 +8,9 @@ function Login() {
   return (
     <>
         <div>
-            <Loginimagen></Loginimagen>
+            <Loginimagen />
             <IniciarSesion />
-            <Noaccount/>
+            <Noaccount yn="No" decision="Registrarse"/>
             <Gsesion/>
         </div>
     </>

@@ -1,9 +1,9 @@
 import React from 'react'
 import "./styles/Noaccount.css"
-function Noaccount() {
+function Noaccount(props) {
   return (
     <div className='Noaccount'>
-        No tiene una cuenta?<p>Registrarse</p>
+        {props.yn} tiene una cuenta?<p>{props.decision}</p>
     </div>
   )
 }
