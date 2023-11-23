@@ -14,7 +14,9 @@ function CheckoutForm() {
       </div>
       <AddressForm />
       <OrderSummary />
+      <MetodoPago/>
       <PaymentButton />
+    
     </div>
   );
 }

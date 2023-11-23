@@ -1,16 +1,17 @@
 .checkout-page {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding-top: 2rem; /* Espacio en la parte superior */
-    min-height: 100vh; /* Altura mínima de la ventana de visualización */
-    background-color: #f0f0f2; /* Color de fondo suave */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 2rem; /* Espacio en la parte superior */
+  min-height: 100vh; /* Altura mínima de la ventana de visualización */
+  background-color: #f0f0f2; /* Color de fondo suave */
+}
+
+/* Media query para ajustes de diseño responsivo */
+@media (max-width: 768px) {
+  .checkout-page {
+    padding-top: 1rem;
   }
-  
-  /* Media query para ajustes de diseño responsivo */
-  @media (max-width: 768px) {
-    .checkout-page {
-      padding-top: 1rem;
-    }
-  }
+}
+
   

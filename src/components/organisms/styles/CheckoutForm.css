@@ -1,16 +1,16 @@
 .checkout-form {
-    /* Estilos para el formulario de pago y dirección */
+   
     max-width: 500px;
     margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #F2F2F2;
 
   }
 .subtitulo{
   display: flex;
   justify-content: center;
   width: 100%;
-  /*position: relative;*/
+  /*position: relative;*/
 }

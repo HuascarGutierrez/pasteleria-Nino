@@ -5,7 +5,7 @@ import "./styles/BackButton.css";
 function BackButton() {
   return (
     <a className="back-button">
-      <img src='./icons/Vector1.svg' className='back-button-icon' alt="" />
+     <img src='public/flecha atras.svg' className='back-button-icon' alt="" />
     </a>
   );
 }

@@ -4,15 +4,11 @@ import CheckoutPage from './screens/Checkoutpage';
 import Payment from './screens/Payment';
 
 function App() {
-
   return (
-    <>
-   
-      <div className="verificador-compra">
-      <Payment/>
+    <div className="app">
+      <Checkoutpage />
     </div>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
