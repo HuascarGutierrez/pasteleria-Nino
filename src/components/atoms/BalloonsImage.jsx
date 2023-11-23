@@ -8,4 +8,5 @@ function BalloonsImage() {
     </div>
   );
 }
+
 export default BalloonsImage;
