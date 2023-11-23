@@ -11,8 +11,8 @@ function CartItem({ title, quantity, price, description, imageUrl }) {
          
         </div>
         
-        <div className="cart-item-body">
           <p className="cart-item-quantity">{`Cantidad ${quantity} unidades`}</p>
+      <div className="cart-item-body">
           <div className='precio_desc'>
           <p className="cart-item-description">{description}</p>
           <div className = "precio">

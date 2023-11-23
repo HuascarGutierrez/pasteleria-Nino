@@ -3,6 +3,7 @@ import BackButton from '../atoms/BackButton';
 import AddressForm from '../molecules/AddressForm';
 import OrderSummary from '../molecules/OrderSummary';
 import PaymentButton from '../atoms/PaymentButton';
+import MetodoPago from '../atoms/MetodoPago'; 
 import "./styles/CheckoutForm.css";
 
 function CheckoutForm() {
@@ -14,7 +15,7 @@ function CheckoutForm() {
       </div>
       <AddressForm />
       <OrderSummary />
-      <MetodoPago/>
+     
       <PaymentButton />
     
     </div>
