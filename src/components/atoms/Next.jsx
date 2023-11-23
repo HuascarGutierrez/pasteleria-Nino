@@ -3,9 +3,9 @@ import "./styles/Next.css"
 function Next() {
   return (
     <div>
-        <button>
+        <a href='./welcome' className='botonNext'>
         <img src='./icons/gogroup2.svg' className='imagen'></img>
-        </button>
+        </a>
     </div>
   )
 }
