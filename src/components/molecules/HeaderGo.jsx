@@ -1,7 +1,7 @@
 import React from 'react';
-import BackButton from '../atomos/BackButton';
-import BalloonsImage from '../atomos/BalloonsImage';
-import SuccessfulMessage from '../atomos/SuccessMessage';
+import BackButton from '../atoms/BackButton';
+import BalloonsImage from '../atoms/BalloonsImage';
+import SuccessfulMessage from '../atoms/SuccessMessage';
 import "./styles/HeaderGo.css";
 
 function HeaderGo() {

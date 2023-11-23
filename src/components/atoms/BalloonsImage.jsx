@@ -4,7 +4,7 @@ import "./styles/BalloonsImage.css";
 function BalloonsImage() {
   return (
     <div className="balloons-image">
-      <img src="./image 50.png" alt="Celebration Balloons" />
+      <img src="./public/images/image 50.png" alt="Celebration Balloons" />
     </div>
   );
 }

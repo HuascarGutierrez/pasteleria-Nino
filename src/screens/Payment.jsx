@@ -1,5 +1,5 @@
 import React from 'react';
-import SuccessfulOrder from '../organismos/SuccesfulOrder';
+import SuccessfulOrder from '../components/organisms/SuccesfulOrder';
 import "./styles/Payment.css";
 
 function Payment() {

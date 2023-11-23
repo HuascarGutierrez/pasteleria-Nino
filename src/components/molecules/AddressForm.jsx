@@ -1,5 +1,5 @@
 import React from 'react';
-import InputField from '../atomos/InputField';
+import InputField from '../atoms/InputField';
 import "./styles/AddressForm.css";
 
 function AddressForm() {

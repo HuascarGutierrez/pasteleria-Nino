@@ -1,9 +1,8 @@
 import React from 'react';
-import HeaderGo from '../moleculas/HeaderGo';
-import CartItem from '../atomos/CartItem'; 
-import OrderSummary from '../moleculas/OrderSummary';
-import InfoButton from '../atomos/InfoButton';
-import "./styles/SuccessfulOrder.css";
+import HeaderGo from '../molecules/HeaderGo';
+import OrderSummary from '../molecules/OrderSummary';
+import InfoButton from '../atoms/InfoButton';
+import "./styles/SuccesfulOrder.css"
 
 function SuccessfulOrder() {
   

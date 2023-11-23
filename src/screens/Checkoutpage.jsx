@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckoutForm from '../organismos/CheckoutForm';
+import CheckoutForm from '../components/organisms/CheckoutForm';
 import "./styles/CheckoutPage.css";
 
 function CheckoutPage() {
