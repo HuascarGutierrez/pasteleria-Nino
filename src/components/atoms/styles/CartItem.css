@@ -1,8 +1,9 @@
 .cart-item-header {
   display:flex;
   justify-content: space-between;
-  align-items:normal ; /* Asegúrate de que los elementos estén alineados verticalmente en el centro */
-  width: 100%;
+  align-items:normal ;
+  
+
  
 }
 
@@ -11,7 +12,7 @@
   color: #000000;
   font-size: 1rem;
   position:center;
-  flex: 8; /* Esto permite que el título se expanda y empuje el precio hacia la derecha */
+  flex: 8; 
   margin-left: 11px ;
 }
 
@@ -28,11 +29,11 @@
 .cart-item-price {
   
   font-size: 1rem;
-  color: #E53935; /* Rojo para el precio */
-  font-weight: bold; /* Ajusta para espaciado entre el título y el precio */
-  padding: 0.25\rem 0.5rem; /* Añade padding para que el precio no esté pegado al borde */
-  background-color: #ffebee; /* Fondo suave para el precio, ajusta según tu diseño */
-  border-radius: 5px; /* Bordes redondeados para el fondo del precio */
+  color: #E53935; 
+  font-weight: bold; 
+  padding: 0.25\rem 0.5rem; 
+  background-color: #ffebee; 
+  border-radius: 5px; 
   margin-left: 20px;
   
 }
