@@ -1,8 +1,8 @@
 import React from 'react';
 import BackButton from '../components/atoms/BackButton';
 import MapCard from '../components/molecules/MapCard'; 
-import Button from '../atoms/Button'; 
-import './OrderTrackingTemplate.css'; 
+import Button from '../components/atoms/Button'; 
+import '../screens/styles/OrderTrackingTemplate.css'; 
 
 function OrderTrackingTemplate() {
   
@@ -14,7 +14,6 @@ function OrderTrackingTemplate() {
   };
   const handleReturnHome = () => {
     console.log('Regresar al Inicio');
-   
   };
   return (
     <div className="order-tracking-template">

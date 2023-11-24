@@ -1,6 +1,6 @@
 import React from 'react';
-import './MapCard.css'; // Asegúrate de tener este archivo CSS
-import mapImage from './path-to-map-image.jpg'; // Asegúrate de tener esta imagen en tus activos
+import '../molecules/styles/MapCard.css';
+import mapImage from '/images/Group 347.png'; 
 
 function MapCard() {
   return (

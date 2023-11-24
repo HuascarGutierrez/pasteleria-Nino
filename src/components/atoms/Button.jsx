@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css'; // Asegúrate de tener este archivo CSS
+import '../atoms/styles/Button.css'
 
 function Button({ children, type, onClick }) {
   return (

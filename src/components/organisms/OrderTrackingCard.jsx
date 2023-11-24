@@ -1,8 +1,8 @@
 import React from 'react';
 import IconButton from '../atoms/IconButton';
-import Button from '../atoms/Button';
+import Button from '../atoms/BackButton';
 import MapCard from '../molecules/MapCard';
-import './OrderTrackingCard.css'; // Asegúrate de tener este archivo CSS
+import './OrderTrackingCard.css'; 
 
 function OrderTrackingCard() {
   return (
