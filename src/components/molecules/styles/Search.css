@@ -1,0 +1,30 @@
+.Buscador{
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+}
+
+.Buscador input{
+    width: 70%;
+    height: 45px;
+    border: 2px solid #FC7846;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Buscador a{
+    width: 12%;
+    height: 45px;
+    border: 2px solid #FC7846;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.Buscador a img{
+    width: 30px;
+    height: 30px;
+
+}
