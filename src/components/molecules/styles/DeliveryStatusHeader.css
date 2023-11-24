@@ -1,0 +1,17 @@
+.delivery-status-header {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .delivery-status-header h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .delivery-status-header p {
+    color: #666;
+  }
+  

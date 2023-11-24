@@ -2,12 +2,13 @@ import './App.css'
 import React from 'react';
 import CheckoutPage from './screens/Checkoutpage';
 import Payment from './screens/Payment';
-import OrderTrackingTemplate from './screens/OrderTrackingTemplate';
+import OrderTemplate from './screens/OrderTemplate';
 
 function App() {
   return (
+    
     <div className="app">
-      <OrderTrackingTemplate/>
+      <OrderTemplate/>
     </div>
   );
 }

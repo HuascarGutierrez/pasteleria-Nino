@@ -6,11 +6,7 @@ import '../screens/styles/OrderTrackingTemplate.css';
 
 function OrderTrackingTemplate() {
   
-  const handleBackClick = () => {
-    console.log('Retroceder');
-  };
-  const handleTrackOrder = () => {
-    console.log('Seguir Pedido');
+
   };
   const handleReturnHome = () => {
     console.log('Regresar al Inicio');
@@ -22,7 +18,6 @@ function OrderTrackingTemplate() {
         <h3>Su orden ya fue entregada al repartidor</h3>
         <p>Su pastel está en camino...</p>
         <MapCard />
-        <Button type="primary" onClick={handleTrackOrder}>Seguir Pedido</Button>
         <Button type="secondary" onClick={handleReturnHome}>Regresar al Inicio</Button>
       </div>
     </div>

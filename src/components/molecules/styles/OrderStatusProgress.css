@@ -1,0 +1,36 @@
+.order-status-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .status-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; /* o el tamaño que necesites */
+    height: 30px; /* o el tamaño que necesites */
+    margin: 0 10px; /* Espacio horizontal entre íconos */
+    opacity: 0.3; /* Íconos no activos más transparentes */
+  }
+  
+  .status-icon.active {
+    opacity: 1; /* Íconos activos opacos */
+  }
+  
+  .status-bar {
+    flex-grow: 1;
+    height: 4px; /* o el grosor que necesites */
+    background-color: #d3d3d3; /* Color de la barra no activa */
+    margin: 0 5px;
+  }
+  
+  .status-icon.active + .status-bar {
+    background-color: #ff4500; /* Color de la barra activa, ajusta según tu esquema de color */
+  }
+  
+  .status-icon img {
+    width: 100%;
+    height: auto;
+  }
+  
