@@ -13,7 +13,7 @@ function TopMenuGen() {
         <img className="boton" src={opt}></img>
         </a>
       </Link>
-      <a href="">
+      <a>
        <img className="boton" src={front}></img>
       </a>
     </div>

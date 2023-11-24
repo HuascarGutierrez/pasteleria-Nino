@@ -3,6 +3,7 @@ import "./styles/Fliper.css"
 import "./styles/styles.css"
 import CardPromo from '../molecules/CardPromo'
 import { ofertas } from '../../assets/OfertasAPI'
+import { Link } from 'react-router-dom'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -36,7 +37,9 @@ function Ofertas() {
               ofertas.map(ofer=>{
                 return(
                   <SwiperSlide>
-                  <CardPromo ofertas={ofer}/>
+                    <Link to='/cake'>
+                    <CardPromo ofertas={ofer}/>
+                    </Link>
                   </SwiperSlide>
                 )
               })
