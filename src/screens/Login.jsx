@@ -10,7 +10,7 @@ function Login() {
         <div>
             <Loginimagen />
             <IniciarSesion />
-            <Noaccount yn="No" route="./signup" decision="Registrarse"/>
+            <Noaccount yn="No" route="/signup" decision="Registrarse"/>
             <Gsesion/>
         </div>
     </>

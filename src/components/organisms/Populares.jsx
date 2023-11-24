@@ -2,6 +2,7 @@ import React from 'react'
 import { populares } from '../../assets/PastelesAPI'
 import Producto from '../molecules/Producto'
 import "./styles/Populares.css"
+import { Link } from 'react-router-dom'
 
 function Populares() {
   return (
@@ -12,7 +13,9 @@ function Populares() {
             {
                 populares.map(popular=>{
                     return(
-                        <Producto producto={popular} />
+                        <Link to="/cake">
+                            <Producto producto={popular} />
+                        </Link>
                     )
                 })
             }

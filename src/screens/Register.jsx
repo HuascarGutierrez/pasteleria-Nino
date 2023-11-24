@@ -11,7 +11,7 @@ function Register() {
         <div>
             <Registerimagen/>
             <Registrar />
-            <Noaccount yn="Ya" route="./login" decision="Iniciar sesión"/>
+            <Noaccount yn="Ya" route="/login" decision="Iniciar sesión"/>
             <Gsesion/>
         </div>
     </>
