@@ -8,9 +8,10 @@ import OrderTemplate from './screens/OrderTemplate';
 function App() {
   return (
     <div className="app">
-      <Payment/>
+      <CheckoutPage/>
     </div>
   );
+  
 }
 
 export default App;
