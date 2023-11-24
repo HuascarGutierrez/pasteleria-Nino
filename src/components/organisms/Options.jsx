@@ -12,7 +12,9 @@ function Options() {
     <Link to="/login">
     <ButtonI/>
     </Link>
+    <Link to="/acerca">
     <AcercaD/>
+    </Link>
     </div>
     </>
   )

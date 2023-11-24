@@ -12,7 +12,7 @@ function Registrar() {
         <div className='iniciarSesion'>
             <TitleLog title="Registrar"/>
             <FormRegister/>
-            <Link to="/">
+            <Link to="/usuario">
               <ButtonPrincipal type="Orange" text="Unirse"/>
             </Link>
         </div>

@@ -21,6 +21,7 @@ import Loginimagen from './components/molecules/Loginimagen'
 import Ubicacione from './screens/Ubicacione'
 import UsuarioA from './screens/UsuarioA'
 import NoUser from './screens/NoUser'
+import AcercaD from './components/atoms/AcercaD'
 function App() {
 
   return (
@@ -36,6 +37,8 @@ function App() {
         <Route path="/main" element={<Mgenearal/>}></Route>
 
         <Route path="/sinUsuario" element={<NoUser/>}></Route>
+        <Route path="/usuario" element={<UsuarioA/>}></Route>
+        <Route path="/acerca" element={<Ubicacione/>}></Route>
       </Routes>
     </>
   )
