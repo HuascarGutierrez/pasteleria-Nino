@@ -17,6 +17,9 @@ import Opciones from './components/organisms/Opciones'
 import Populares from './components/organisms/Populares'
 import Noaccount from './components/atoms/Noaccount'
 
+import Loginimagen from './components/molecules/Loginimagen'
+import Ubicacione from './screens/Ubicacione'
+import UsuarioA from './screens/UsuarioA'
 function App() {
 
   return (
@@ -36,3 +39,4 @@ function App() {
 }
 
 export default App
+/*<Ubicacione /> ESTO ES DE ACERCA DE NOSOTROS*/
