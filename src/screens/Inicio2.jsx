@@ -9,7 +9,7 @@ function Inicio2() {
     <div className='Inicio2'>
         <Skip />
         <Messege titulo="Bienvenido a Pasteleria Nino" frase="Hecho a mano por la propietaria con una pizca de extra love :’v" />
-        <Next route="./menu"/>
+        <Next route="/main"/>
         <Rectangulo process="./icons/processBar2.svg"/>
     </div>
   )

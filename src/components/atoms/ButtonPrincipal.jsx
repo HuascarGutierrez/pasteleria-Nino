@@ -5,7 +5,7 @@ function ButtonPrincipal(props) {
   return (
     <>
       <div className={"botonP boton"+props.type}>
-          <a href={props.refe}>{props.text}</a>
+          <p>{props.text}</p>
       </div>
     </>
   )

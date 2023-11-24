@@ -15,23 +15,21 @@ import Ofertas from './components/organisms/Ofertas'
 import Combos from './components/organisms/Combos'
 import Opciones from './components/organisms/Opciones'
 import Populares from './components/organisms/Populares'
+import Noaccount from './components/atoms/Noaccount'
 
 function App() {
 
   return (
     <>
       <Routes>
-        <Route path="/" element={<Inicio1 />}></Route>
-        <Route path="/welcome" element={<Inicio2 />}></Route>
+        <Route path="/" element={<Inicio1 />}> {/*ready */}></Route>
+        <Route path="/welcome" element={<Inicio2 />}></Route> {/*ready */}
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/signup" element={<Register/>}></Route>
-
         <Route path='/tortas' element={<MenuTortas/>}></Route>
         <Route path="/humintas" element={<MenuHumintas/>}></Route>
-
         <Route path="/cake" element={<CakeTemplate/>}></Route>
-        <Route path="/principal" element={<Mgenearal/>}></Route>
-        
+        <Route path="/main" element={<Mgenearal/>}></Route>
       </Routes>
     </>
   )

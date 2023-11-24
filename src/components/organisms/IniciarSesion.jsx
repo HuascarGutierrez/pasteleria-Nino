@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import TitleLog from '../atoms/TitleLog'
 import ForgotP from '../atoms/ForgotP'
@@ -14,7 +15,9 @@ function IniciarSesion() {
             <TitleLog title="Iniciar Sesión"/>
             <FormLogin/>
             <ForgotP/>
-            <ButtonPrincipal type="Orange" refe="" text="Ingrese su cuenta"/>
+            <Link to={"/main"}>
+              <ButtonPrincipal type="Orange" refe="" text="Ingrese su cuenta"/>
+            </Link>
         </div>
     </>
   )

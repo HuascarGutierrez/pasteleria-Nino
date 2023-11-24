@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.botonOrange a{
+.botonOrange p{
     text-decoration: none;
     font-size: 22px;
 }
@@ -21,10 +21,10 @@
     border: 2px solid #FE724C;
 }
 
-.botonOrange a{
+.botonOrange p{
     color: #FFFFFF;
 }
 
-.botonWhite a{
+.botonWhite p{
     color: #FE724C;
 }
