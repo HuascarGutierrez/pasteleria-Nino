@@ -15,7 +15,7 @@ function IniciarSesion() {
             <TitleLog title="Iniciar Sesión"/>
             <FormLogin/>
             <ForgotP/>
-            <Link to={"/usuario"}>
+            <Link to={"/usuario"} className='titleall'>
               <ButtonPrincipal type="Orange" refe="" text="Ingrese su cuenta"/>
             </Link>
         </div>

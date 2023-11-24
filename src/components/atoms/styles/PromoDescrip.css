@@ -17,17 +17,19 @@
     justify-content: space-between;
 }
 
-.promodesc h4{
+.titleh4{
     font-size: 22px;
     font-weight: 400;
+    text-decoration: none;
+    text-align: left;
 }
 
-.promodesc .especific p:nth-child(1){
+.descriptionpromo{
     color: #505050;
     font-size: 16px;
 }
 
-.promodesc .especific p:nth-child(2){
+.preciopromo{
     color: #FF4700;
     font-size: 20px;
     font-weight: 600;
