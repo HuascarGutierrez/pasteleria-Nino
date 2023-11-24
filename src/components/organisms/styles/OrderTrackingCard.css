@@ -1,0 +1,18 @@
+.order-tracking-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px; 
+    margin: auto;
+  }
+  
+  .order-tracking-card h3 {
+    margin-top: 0;
+  }
+  
+  .order-tracking-card p {
+    margin-bottom: 20px;
+  }
+  

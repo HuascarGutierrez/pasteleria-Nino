@@ -1,10 +1,10 @@
 .Inicio1{
     background-image: url(/public/images/background.svg);
-    background-size: contain; /* Ajusta el tamaño de la imagen al contenedor */
-    background-position: center; /* Centra la imagen de fondo */
+    background-size: contain; 
+    background-position: center; 
     background-repeat: no-repeat;
-    background-attachment: fixed; /* La imagen de fondo no se desplaza con el contenido */
-    height: 100vh; /* Ajusta la altura según tus necesidades */
+    background-attachment: fixed; 
+    height: 100vh; 
     width: 100vw;
   }
 .Inicio1 img{

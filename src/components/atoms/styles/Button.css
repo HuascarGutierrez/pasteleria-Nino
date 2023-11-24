@@ -1,0 +1,18 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0; 
+    cursor: pointer;
+  }
+  
+  .button.primary {
+    background-color: #ff6b6b; 
+    color: white;
+  }
+  
+  .button.secondary {
+    background-color: #ffa500; 
+    color: white;
+  }
+  
