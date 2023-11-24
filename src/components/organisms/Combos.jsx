@@ -35,7 +35,7 @@ function Combos() {
           ofertas.map(ofer=>{
             return(
               <SwiperSlide>
-                <Link to='/cake'>
+                <Link to='/cake' className='titleall'>
                 <CardPromo ofertas={ofer}/>
                 </Link>
               </SwiperSlide>

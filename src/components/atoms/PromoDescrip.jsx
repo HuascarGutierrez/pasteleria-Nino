@@ -5,10 +5,10 @@ function PromoDescrip(props) {
     const ofertas = props.ofertas;
   return (
     <div className='promodesc'>
-        <h4>{ofertas.title}</h4>
+        <h4 className='titleh4'>{ofertas.title}</h4>
         <div className='especific'>
-            <p>{ofertas.extrainfo}</p>
-            <p>{"Bs "+ofertas.price}</p>
+            <p className='descriptionpromo'>{ofertas.extrainfo}</p>
+            <p className='preciopromo'>{"Bs "+ofertas.price}</p>
         </div>
     </div>
   )
