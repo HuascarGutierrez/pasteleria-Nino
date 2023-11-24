@@ -16,9 +16,9 @@ function OrderTemplate() {
         status={orderStatus} 
         deliveryPerson={deliveryPerson} 
         mapImageUrl={mapImageUrl} 
+        currentStage={currentStage}
       />
-    </div>
-  );
-}
+    )}
+
 
 export default OrderTemplate;

@@ -11,7 +11,7 @@ function CardTracking({ status, deliveryPerson, mapImageUrl }) {
   return (
     <div className="card-tracking">
       <BackButton />
-      <OrderStatusProgress/>
+      <OrderStatusProgress currentStage={currentStage} />
       <DeliveryStatusHeader status={status} />
       <MapCard imageUrl={mapImageUrl} />
       <DeliveryInfo name={deliveryPerson.name} imageUrl={deliveryPerson.imageUrl} />

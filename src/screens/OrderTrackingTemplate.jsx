@@ -22,5 +22,5 @@ function OrderTrackingTemplate() {
       </div>
     </div>
   );
-}
+
 export default OrderTrackingTemplate;
