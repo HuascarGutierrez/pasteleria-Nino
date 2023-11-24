@@ -3,7 +3,7 @@ import HeaderGo from '../molecules/HeaderGo';
 import OrderSummary from '../molecules/OrderSummary';
 import InfoButton from '../atoms/InfoButton';
 import BackButton from '../atoms/BackButton';
-import "./styles/SuccesfulOrder.css"
+import "./styles/OrderTraking.css"
 import OrderStatus from './OrderStatus';
 import MapImage from '../molecules/MapImage';
 import ButtonHome from '../atoms/ButtonHome';
