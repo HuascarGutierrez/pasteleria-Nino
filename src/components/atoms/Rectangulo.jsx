@@ -1,9 +1,9 @@
 import React from 'react'
 import "./styles/Rectangulo.css"
-function Rectangulo() {
+function Rectangulo(props) {
   return (
     <div className='Rectangulo'>
-        <img src='./icons/processbar.svg' className='imagen'></img>
+        <img src={props.process} className='imagen'></img>
     </div>
   )
 }

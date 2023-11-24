@@ -1,4 +1,5 @@
 import './App.css'
+import {Routes, Route, Outlet, Link} from "react-router-dom"
 
 import Login from './screens/Login'
 import Recomendaciones from './components/organisms/Recomendaciones'
@@ -13,7 +14,18 @@ function App() {
 
   return (
     <>
-      <MenuTortas/>
+      <Routes>
+        <Route path="/" element={<Inicio1 />}></Route>
+        <Route path="/welcome" element={<Inicio2 />}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/signup" element={<Register/>}></Route>
+
+        <Route path='/tortas' element={<MenuTortas/>}></Route>
+        <Route path="/humintas" element={<MenuHumintas/>}></Route>
+
+        <Route path="/cake" element={<CakeTemplate/>}></Route>
+        
+      </Routes>
     </>
   )
 }

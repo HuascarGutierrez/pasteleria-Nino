@@ -6,11 +6,11 @@ import Rectangulo from '../components/atoms/Rectangulo'
 import "./styles/Inicio2.css"
 function Inicio2() {
   return (
-    <div className='Inicio1'>
+    <div className='Inicio2'>
         <Skip />
         <Messege titulo="Bienvenido a Pasteleria Nino" frase="Hecho a mano por la propietaria con una pizca de extra love :’v" />
-        <Next />
-        <Rectangulo />
+        <Next route="./menu"/>
+        <Rectangulo process="./icons/processBar2.svg"/>
     </div>
   )
 }

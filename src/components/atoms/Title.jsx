@@ -5,7 +5,7 @@ function Title(props) {
   return (
     <>
         <div className='titulo'>
-        <h1>{props.title}</h1>
+        <h1 className='tituloMenu'>{props.title}</h1>
         </div>
     </>
   )

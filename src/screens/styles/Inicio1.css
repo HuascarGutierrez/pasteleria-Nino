@@ -1,5 +1,5 @@
 .Inicio1{
-    background-image: url(/public/images/background.svg);
+    background-image: url(/images/background.svg);
     background-size: contain; /* Ajusta el tamaño de la imagen al contenedor */
     background-position: center; /* Centra la imagen de fondo */
     background-repeat: no-repeat;

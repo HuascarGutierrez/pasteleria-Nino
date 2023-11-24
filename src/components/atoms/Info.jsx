@@ -5,8 +5,10 @@ function Info(props) {
     const info = props.info
   return (
     <>
-        <div>
-            <h2 className='name'>{info.title}</h2>
+        <div className='info'>
+            <div>
+              <h2 className='name' ><a href={"./"+info.id}>{info.title}</a></h2>
+            </div>
             <p className='cantidad'>{"Cantidad: "+info.available}</p>
         </div>
     </>
