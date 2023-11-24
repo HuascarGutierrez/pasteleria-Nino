@@ -30,6 +30,7 @@ function App() {
         <Route path="/humintas" element={<MenuHumintas/>}></Route>
 
         <Route path="/cake" element={<CakeTemplate/>}></Route>
+        <Route path="/principal" element={<Mgenearal/>}></Route>
         
       </Routes>
     </>

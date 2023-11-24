@@ -4,23 +4,12 @@ import "./styles/styles.css"
 import CardPromo from '../molecules/CardPromo'
 import { ofertas } from '../../assets/OfertasAPI'
 
-<<<<<<< HEAD
-{/*import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';*/}
-
-// Import Swiper styles
-import CardPromo from '../molecules/CardPromo'
-import { ofertas } from '../../assets/OfertasAPI'
-
-=======
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
->>>>>>> 87105899216a0ed6eab3df851227560f112ea0bc
 
 // import required modules
 import { Pagination } from 'swiper/modules';
@@ -30,12 +19,12 @@ import { Pagination } from 'swiper/modules';
 function Ofertas() {
   return (
     <>
-      <section className='cardfliper'>
+      <section >
         <h3 className='titleh3'>Las mejores ofertas</h3>
         <div>
         <Swiper
         slidesPerView={'auto'}
-        spaceBetween={30}
+        spaceBetween={-100}
         pagination={{
           clickable: true,
         }}
