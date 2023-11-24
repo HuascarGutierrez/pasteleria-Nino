@@ -1,0 +1,15 @@
+.order {
+    background-color:#F2F2F2 ;
+    margin: auto ;
+  
+      display: flex;
+      flex-direction: column;
+  
+      padding: 20px;
+    }
+    
+   .back-buton{
+    margin-top: 20;
+    margin-bottom: 40px ;
+    
+   }

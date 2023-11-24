@@ -1,13 +1,12 @@
 import React from 'react';
-import '../molecules/styles/MapImage.css';
-/*import mapImage from './path-to-your-map-image.jpg'; // Asegúrate de reemplazar esto con la ruta real a tu imagen de mapa*/
+import "./styles/MapImage.css";
 
-function MapImage() {
+function BalloonsImage() {
   return (
-    <div className="map-container">
-      <img src={mapImage} alt="Mapa del seguimiento del pedido" />
+    <div className="balloons-image">
+      <img src="public/images/map1.svg" alt="" />
     </div>
   );
 }
 
-export default MapImage;
+export default BalloonsImage;

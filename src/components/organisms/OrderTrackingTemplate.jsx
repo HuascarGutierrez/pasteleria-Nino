@@ -1,7 +1,7 @@
 import React from 'react';
-import OrderStatus from '../components/organisms/OrderStatus';
-import MapImage from '../components/molecules/MapImage';
-import '../screens/styles/OrderTrackingTemplate.css';
+import OrderStatus from './OrderStatus';
+import MapImage from '../molecules/MapImage';
+import '../organisms/styles/OrderTrackingTemplate.css';
 
 function OrderTrackingTemplate() {
   return (

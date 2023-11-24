@@ -1,10 +1,18 @@
-.map-container {
-    width: 100%;
-    height: 200px; /* Ajusta esto según el tamaño que necesites */
-  }
-  
-  .map-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.balloons-image {
+  text-align: center; /* Esto asegura que la imagen esté centrada horizontalmente */
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Aumenta el margen superior e inferior */
+}
+
+.balloons-image img {
+  text-align: center; 
+  margin-top: -7%;
+  width: 300.83px; /* Mantiene la proporción original de la imagen */
+  height: 350px; /* Ajusta la altura para tu diseño */
+  display: flex ; /* Para habilitar el centrado con text-align */
+  justify-content: center;
+}
+
+
+

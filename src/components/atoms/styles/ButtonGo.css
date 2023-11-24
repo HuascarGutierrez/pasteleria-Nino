@@ -1,0 +1,16 @@
+.info-button1 {
+    padding: 10px 20px;
+    background-color:  #ffffff; /* Color de fondo del botón */
+    color: #ff0000; /* Color del texto del botón */
+    border: 2px solid  #ff0000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 25px; /* Espacio antes del botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra opcional para darle profundidad */
+    /* Ajustes responsivos para pantallas pequeñas */
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no añada ancho total */
+    text-align: center; /* Asegura que el texto esté centrado */
+  }
+  
