@@ -20,6 +20,7 @@ import Noaccount from './components/atoms/Noaccount'
 import Loginimagen from './components/molecules/Loginimagen'
 import Ubicacione from './screens/Ubicacione'
 import UsuarioA from './screens/UsuarioA'
+import NoUser from './screens/NoUser'
 function App() {
 
   return (
@@ -33,6 +34,8 @@ function App() {
         <Route path="/humintas" element={<MenuHumintas/>}></Route>
         <Route path="/cake" element={<CakeTemplate/>}></Route>
         <Route path="/main" element={<Mgenearal/>}></Route>
+
+        <Route path="/sinUsuario" element={<NoUser/>}></Route>
       </Routes>
     </>
   )
