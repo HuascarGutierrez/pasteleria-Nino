@@ -1,0 +1,15 @@
+
+.HogarA{
+    display: flex;
+    padding-top: 15px;
+}
+.HogarA a{
+    
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.HogarA p{
+    font-size: 20px;
+    padding-top: 15px;
+}

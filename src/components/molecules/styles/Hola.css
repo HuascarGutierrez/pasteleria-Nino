@@ -1,0 +1,8 @@
+.Hola{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.Hola P{
+    font-size: 30px;
+}

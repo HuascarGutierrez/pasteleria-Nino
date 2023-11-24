@@ -5,13 +5,15 @@ import MenuHumintas from './screens/MenuHumintas'
 import MenuTortas from './screens/MenuTortas'
 import Loginimagen from './components/molecules/Loginimagen'
 import Ubicacione from './screens/Ubicacione'
+import UsuarioA from './screens/UsuarioA'
 function App() {
 
   return (
     <>
-      <Ubicacione></Ubicacione>
+      <UsuarioA />
     </>
   )
 }
 
 export default App
+/*<Ubicacione /> ESTO ES DE ACERCA DE NOSOTROS*/
