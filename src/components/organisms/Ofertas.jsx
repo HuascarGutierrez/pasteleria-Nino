@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles/Fliper.css"
+import "./styles/styles.css"
 
-import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles

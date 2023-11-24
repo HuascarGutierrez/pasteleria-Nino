@@ -2,6 +2,7 @@ import React from 'react'
 import CardPromo from '../molecules/CardPromo'
 import { ofertas } from '../../assets/OfertasAPI'
 import "./styles/Fliper.css"
+import "./styles/styles.css"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
