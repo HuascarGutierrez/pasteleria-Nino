@@ -1,7 +1,6 @@
 import React from 'react'
 import Info from '../atoms/Info'
 import './styles/Producto.css'
-import './styles/TortaEntera.css'
 import CarritoBoton from '../atoms/CarritoBoton'
 import CantidadBmini from '../atoms/CantidadBmini'
 

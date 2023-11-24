@@ -1,0 +1,46 @@
+.productPromo{
+    position: absolute;
+}
+
+
+.productPromo img{
+    border-radius: 24px;
+    width: 263px;
+    height: 134px;
+}
+
+.botones-img{
+    position: absolute;
+    width: 233px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.buy{
+    display: flex;
+    border-color: transparent;
+    width: 28px;
+    height: 28px;
+    background-image: url(/icons/ofertas/compran.svg);
+}
+
+.buy:hover{
+    background-image: url(/icons/ofertas/comprah.svg);
+    width: 28px;
+    height: 28px;
+}
+
+.like{
+    display: flex;
+    border-color: transparent;
+    width: 28px;
+    height: 28px;
+    background-image: url(/icons/ofertas/coranormal.svg);
+}
+
+.like:hover{
+    background-image: url(/icons/ofertas/corahov.svg);
+    width: 28px;
+    height: 28px;
+}
